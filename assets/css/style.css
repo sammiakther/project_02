@@ -1,0 +1,218 @@
+/* common css start */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700;800&family=Roboto:wght@400;500;700&display=swap');
+/* font-family: 'Jost', sans-serif;
+font-family: 'Roboto', sans-serif; */
+*{
+   margin: 0px;
+}
+.container{
+    width: 90%;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+}
+ul{
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.d-flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.title h3{
+    color: #13C5DD;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+.title h2{
+    color: #1d2a4d;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+/* common css end */
+/* top nav section code start */
+.top-nav{
+    border-top: 1px solid rgba(132,142,159,.5);
+    border-bottom: 1px solid rgba(132,142,159,.5);
+}
+.top-nav-inner{
+    padding: 10px 0px;
+}
+.top-nav-inner a{
+    color: #848e9f;
+    font-size: 16px;
+    transition: .5s;
+}
+.top-nav-inner a:hover{
+    color: #13C5DD;
+}
+.top-nav-inner .contact-info ul li:first-child a::after{
+    content: "";
+    border-right: 1px solid rgba(132,142,159,1);
+    margin: 0px 10px
+}
+.top-nav-inner .contact-info a i{
+    margin-right: 5px;
+}
+.top-nav-inner .social-info a{
+    padding: 0px 5px;
+}
+/* top nav section code end */
+
+/* nav section code start */
+.nav-section{
+    padding: 10px 0px;
+}
+.navbar-brand a{
+    color: #13c5dd;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+ul.navbar-nav{
+    height: 100%;
+}
+ul.navbar-nav li a{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px 15px;
+    font-family: 'Jost', sans-serif;
+    transition: .5s all;
+}
+ul.navbar-nav li a:hover{
+    color: #13c5dd;
+}
+/* nav section code end */
+
+/* header section code start */
+header{
+    background: url(../img/hero.jpg);
+    background-size: cover;
+}
+.header-content{
+    max-width: 800px;
+    padding: 100px 0px;
+}
+.header-content h2{
+    color: #13C5DD;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+.header-content h1{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 600;
+    margin: 10px 0px 50px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.header-content a{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    background: #fff;
+    padding: 15px 50px;
+    margin-right: 15px;
+    border-radius: 30px;
+    display: inline-block;
+    border: 1px solid transparent;
+    font-family: 'Roboto', sans-serif;
+    transition: .5s all;
+}
+.header-content a:hover{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+}
+.header-content a:last-child{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    transition: .5s all;
+}
+.header-content a:last-child:hover{
+    color: #000;
+    background: #fff;
+}
+/* header section code end */
+
+/* about us section code start */
+.about-us-section{
+    padding: 80px 0px;
+}
+.about-us-section .about-us-poster{
+    flex: 2;
+    padding-right: 60px;
+}
+.about-us-section .about-us-poster img{
+    height: 100%;
+    border-radius: 10px;
+}
+.about-us-section .about-us-content{
+    flex: 3;
+}
+.about-us-section .about-us-content p{
+    color: #848e9f;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 25px 0px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+.about-us-features .features-item{
+    background: #EFF5F9;
+    flex: 1;
+    margin: 0px 5px;
+    padding: 25px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;    
+}
+.about-us-features .features-item i{
+    color: #13C5DD;
+    font-size: 48px;
+    display: block;
+    margin: 0px 0px 15px 0px;
+}
+.about-us-features .features-item p{
+    color: #1d2a4d;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.about-us-features .features-item p:last-child{
+    color: #13C5DD;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+/* about us section code end */
